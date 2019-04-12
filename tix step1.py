@@ -23,7 +23,7 @@ while True:
     str_sec1 = "O"*sec_digit_one
     str_sec2 = "O"*sec_digit_two
 
-    print(str_hour1," ",str_hour2," ",str_min1," ",str_min2," ",str_sec1," ",str_sec2)
+    print(str_hour1," ",str_hour2," ",str_min1," ",str_min2," ",str_sec1," ",str_sec2, end="",flush=True)
     
     time.sleep(1)
    
